@@ -383,6 +383,7 @@ $safe[$i] = '';
 		if ( !$parser->tabsData['addedStatics'] ) {
 			$parser->tabsData['addedStatics'] = true;
 			$parserOut->addModules( 'ext.tabs' );
+			$parserOut->addModuleStyles( 'ext.tabs.styles' );
 			// this form is here to use for the form="" attribute in the inputs, for semantically correct usage of the <input> tag outside a <form> tag.
 			return '<form id="tabs-inputform" class="tabs tabs-inputform" action="#"></form>';
 		}

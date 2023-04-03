@@ -23,13 +23,23 @@
 	"ResourceModules": {
 		"ext.tabs": {
 			"scripts": "ext.tabs.js",
-			"styles": "ext.tabs.css",
 			"messages": [
 				"tabs-tab-label",
 				"tabs-toggle-open",
 				"tabs-toggle-close",
 				"tabs-dropdown-label",
 				"tabs-dropdown-bgcolor"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.tabs.styles": {
+			"styles": "ext.tabs.css",
+			"targets": [
+				"mobile",
+				"desktop"
 			]
 		}
 	},
